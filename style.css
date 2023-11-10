@@ -1,0 +1,29 @@
+/* 
+        ========================
+        useful CSS code snippets
+        ========================
+*/
+
+/*  code 1 - a pressable button (see javascript as well) */
+
+.bigButton {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 8px 0 rgb(183,9,0), 
+    0 15px 20px rgba(0,0,0,.35);
+    border-radius: 50%;
+    background-color: red;
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    border: none;
+    text-shadow: 0 3px 1px rgba(122,17,8,0.8);
+    color: white;
+    margin: 20px;
+}
+
+.pressed { 
+    padding-top: 3px;
+    transform: translateY(4px);
+    box-shadow: 0 4px 0 rgb(183,0,0),
+      0 8px 6px rgba(0,0,0,.45);
+  }

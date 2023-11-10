@@ -1,0 +1,18 @@
+/* 
+        =========================
+        useful Json code snippets
+        =========================
+*/
+
+/* code 2 - example of question structure for a json file called questions.json (see javascript as well) */
+
+[
+    {
+         "question": "Sydney Newman, creator of Dr. Who said that didn't want what 'appearing in the show'?",
+         "answers": [
+             "Bug Eyed Monsters",
+             "Swivel Eyed Loons",
+             "Googly Eyed Horrors"
+         ]
+     },
+}
